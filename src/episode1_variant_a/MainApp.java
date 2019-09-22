@@ -23,7 +23,7 @@ public class MainApp {
             Scanner input = new Scanner(System.in);
             while(input.hasNext()){
                 if(!input.hasNextInt()){
-                    System.out.println("Incorret input!");
+                    System.out.println("Incorrect input!");
                     input.close();
                     break;
                 }else{
