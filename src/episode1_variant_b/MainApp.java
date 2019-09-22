@@ -5,6 +5,7 @@
  */
 package episode1_variant_b;
 
+
 import java.util.Scanner;
 
 /**
@@ -49,5 +50,6 @@ public class MainApp {
             error.printStackTrace();
         }
     }
+
     
 }
