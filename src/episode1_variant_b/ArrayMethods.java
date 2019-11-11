@@ -148,4 +148,22 @@ public class ArrayMethods {
         System.out.println(" ");
         
     }
+    
+    public void getNumbersDontRepeat(int[] array){
+        
+        for(int item: array){
+            if(item > 99 && item < 1000){
+                String temp = String.valueOf(item);
+                System.out.print(item + " ");
+                for(int nextitem = 1; nextitem<array.length - 1; nextitem++){
+                    String temp2 = String.valueOf(nextitem);
+                    int countequals = 0;
+                    if(temp.charAt(1) == temp2.charAt(1)){
+                        countequals++;
+                    }
+                }
+            }
+            
+        }
+    }    
 }

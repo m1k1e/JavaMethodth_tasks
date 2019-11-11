@@ -29,7 +29,7 @@ public class RandomizeArray {
     public void setArray(){
         arrayInt = new int[arrayLength];
         for(int count = 0; count <= arrayInt.length - 1; count++){
-            arrayInt[count] = 10 + (int) (Math.random()*10000);
+            arrayInt[count] = 10 + (int) (Math.random()*1000);
         }
         
     }
